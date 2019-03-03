@@ -4,6 +4,12 @@
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
+	"Plugins": [
+		{
+			"Name": "Voxel",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"Lumin",
 		"WindowsNoEditor",

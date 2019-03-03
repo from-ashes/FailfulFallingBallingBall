@@ -1,0 +1,100 @@
+Running AutomationTool...
+Parsing command line: BuildPlugin -Plugin=F:\Voxel\VoxelBuilds\Builds/Builds/Free-4.21/VoxelSource\Voxel.uplugin -Package=F:\Voxel\VoxelBuilds\Builds/Builds/Free-4.21/VoxelHostProject -Rocket
+Copying 1697 file(s) using max 64 thread(s)
+Reading plugin from F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin...
+Building plugin for host platforms: Win64
+Running: F:\UE_Builds\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Editor Win64 Development -plugin=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin -iwyu -noubtmakefiles -manifest=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Editor-Win64-Development.xml -NoHotReload -log="F:\UE_Builds\UE_4.21\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Editor-Win64-Development.txt"
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for UE4Editor
+    Running UnrealHeaderTool UE4Editor "F:\UE_Builds\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for UE4Editor in 13,5256347 seconds
+  Writing manifest to F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Editor-Win64-Development.xml
+  Building 16 actions with 8 processes...
+    [1/16] PCLaunch.rc
+    [2/16] PCLaunch.rc
+    [3/16] PCLaunch.rc
+    [4/16] VoxelEditorDefaultModule.cpp
+    [5/16] UE4Editor-VoxelEditorDefault.lib
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditorDefault\UE4Editor-VoxelEditorDefault.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditorDefault\UE4Editor-VoxelEditorDefault.exp
+    [6/16] Module.Voxel.gen.3_of_3.cpp
+    [7/16] Module.VoxelEditor.gen.cpp
+    [8/16] Module.Voxel.gen.1_of_3.cpp
+    [9/16] Module.Voxel.gen.2_of_3.cpp
+    [10/16] Module.VoxelEditor.cpp
+    [11/16] UE4Editor-VoxelEditor.lib
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\UE4Editor-VoxelEditor.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\UE4Editor-VoxelEditor.exp
+    [12/16] Module.Voxel.cpp
+    [13/16] UE4Editor-Voxel.lib
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\Voxel\UE4Editor-Voxel.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\Voxel\UE4Editor-Voxel.exp
+    [14/16] UE4Editor-VoxelEditorDefault.dll
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditorDefault\UE4Editor-VoxelEditorDefault.suppressed.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditorDefault\UE4Editor-VoxelEditorDefault.suppressed.exp
+    [15/16] UE4Editor-Voxel.dll
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\Voxel\UE4Editor-Voxel.suppressed.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\Voxel\UE4Editor-Voxel.suppressed.exp
+    [16/16] UE4Editor-VoxelEditor.dll
+       Creating library F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\UE4Editor-VoxelEditor.suppressed.lib and object F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Intermediate\Build\Win64\UE4Editor\Development\VoxelEditor\UE4Editor-VoxelEditor.suppressed.exp
+  Total build time: 64,77 seconds (Parallel executor: 40,26 seconds)
+Took 65,0960413s to run UnrealBuildTool.exe, ExitCode=0
+Building plugin for target platforms: Linux, Win64, Win32
+Running: F:\UE_Builds\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Game Linux Development -plugin=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin -iwyu -noubtmakefiles -manifest=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Linux-Development.xml -NoHotReload -ignorejunk -log="F:\UE_Builds\UE_4.21\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Game-Linux-Development.txt"
+  Parsing headers for UE4Game
+    Running UnrealHeaderTool UE4Game "F:\UE_Builds\UE_4.21\Engine\Intermediate\Build\Linux\B4D820EA\UE4\Development\UE4Game.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for UE4Game in 7,132043 seconds
+  ------- Build details --------
+  Using toolchain located at 'F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+  Using clang (F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu\bin\clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+  Using bundled libc++ standard C++ library.
+  Using lld linker
+  Using llvm-ar : F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu\bin/llvm-ar
+  Using old way to relink circularly dependent libraries (with a FixDeps step).
+  ------------------------------
+  Writing manifest to F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Linux-Development.xml
+  Building 4 actions with 8 processes...
+    [1/4] Module.Voxel.gen.3_of_3.cpp
+    [2/4] Module.Voxel.gen.1_of_3.cpp
+    [3/4] Module.Voxel.gen.2_of_3.cpp
+    [4/4] Module.Voxel.cpp
+  Total build time: 58,49 seconds (Parallel executor: 47,78 seconds)
+Took 58,7387439s to run UnrealBuildTool.exe, ExitCode=0
+Running: F:\UE_Builds\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Game Linux Shipping -plugin=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin -iwyu -noubtmakefiles -manifest=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Linux-Shipping.xml -NoHotReload -ignorejunk -log="F:\UE_Builds\UE_4.21\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Game-Linux-Shipping.txt"
+  ------- Build details --------
+  Using toolchain located at 'F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu'.
+  Using clang (F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu\bin\clang++) version '6.0.1' (string), 6 (major), 0 (minor), 1 (patch)
+  Using bundled libc++ standard C++ library.
+  Using lld linker
+  Using llvm-ar : F:/UE_Builds/v12_clang-6.0.1-centos7/x86_64-unknown-linux-gnu\bin/llvm-ar
+  Using old way to relink circularly dependent libraries (with a FixDeps step).
+  ------------------------------
+  Writing manifest to F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Linux-Shipping.xml
+  Building 4 actions with 8 processes...
+    [1/4] Module.Voxel.gen.3_of_3.cpp
+    [2/4] Module.Voxel.gen.1_of_3.cpp
+    [3/4] Module.Voxel.gen.2_of_3.cpp
+    [4/4] Module.Voxel.cpp
+  Total build time: 43,63 seconds (Parallel executor: 40,19 seconds)
+Took 43,904022s to run UnrealBuildTool.exe, ExitCode=0
+Running: F:\UE_Builds\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Game Win64 Development -plugin=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin -iwyu -noubtmakefiles -manifest=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Win64-Development.xml -NoHotReload -ignorejunk -log="F:\UE_Builds\UE_4.21\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Game-Win64-Development.txt"
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for UE4Game
+    Running UnrealHeaderTool UE4Game "F:\UE_Builds\UE_4.21\Engine\Intermediate\Build\Win64\UE4\Development\UE4Game.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for UE4Game in 7,1332667 seconds
+  Writing manifest to F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Win64-Development.xml
+  Building 4 actions with 8 processes...
+    [1/4] Module.Voxel.gen.3_of_3.cpp
+    [2/4] Module.Voxel.gen.1_of_3.cpp
+    [3/4] Module.Voxel.gen.2_of_3.cpp
+    [4/4] Module.Voxel.cpp
+  Total build time: 51,92 seconds (Parallel executor: 40,81 seconds)
+Took 52,1652401s to run UnrealBuildTool.exe, ExitCode=0
+Running: F:\UE_Builds\UE_4.21\Engine\Binaries\DotNET\UnrealBuildTool.exe UE4Game Win64 Shipping -plugin=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Voxel.uplugin -iwyu -noubtmakefiles -manifest=F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Win64-Shipping.xml -NoHotReload -ignorejunk -log="F:\UE_Builds\UE_4.21\Engine\Programs\AutomationTool\Saved\Logs\UBT-UE4Game-Win64-Shipping.txt"
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Writing manifest to F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Saved\Manifest-UE4Game-Win64-Shipping.xml
+  Building 4 actions with 8 processes...
+    [1/4] Module.Voxel.gen.3_of_3.cpp
+    [2/4] Module.Voxel.gen.1_of_3.cpp
+    [3/4] Module.Voxel.gen.2_of_3.cpp
+    [4/4] Module.Voxel.cpp
+  Total build time: 38,47 seconds (Parallel executor: 34,83 seconds)
+Took 38,6972268s to run UnrealBuildTool.exe, ExitCode=0
+Reading filter rules from F:\Voxel\VoxelBuilds\Builds\Builds\Free-4.21\VoxelHostProject\HostProject\Plugins\Voxel\Config\FilterPlugin.ini
+BUILD SUCCESSFUL
+AutomationTool exiting with ExitCode=0 (Success)
